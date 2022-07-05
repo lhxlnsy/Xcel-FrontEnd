@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>About || xceltech</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/odometer.css">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="template-color-1 nft-body-connect">
+    <script>
+        var themeMode = localStorage.getItem('themeMode')
+        console.log(document.getElementsByTagName('body')[0])
+        if (themeMode!=null&&themeMode=='light') {
+            document.getElementsByTagName('body')[0].classList.remove('active-dark-mode');
+            document.getElementsByTagName('body')[0].classList.add('active-light-mode');
+        } else if (themeMode!=null&&themeMode=='dark') {
+            document.getElementsByTagName('body')[0].classList.remove('active-light-mode');
+            document.getElementsByTagName('body')[0].classList.add('active-dark-mode');
+        }
+    </script>
+    <!-- Start Header -->
+    <div id="header"></div>
+    <!-- End Header Area -->
+
+    <!-- About banner area -->
+    <div class="rn-about-banner-area rn-section-gapTop">
+        <div class="container mb--30">
+            <div class="row">
+                <div class="col-12">
+                    <h2>ABOUT US</h2>
+                    <br>
+                    <h5>XCEL TECH Pty Ltd, an Australian owned and operated company providing highly reliable and sustainable eco-friendly innovative technologies and services throughout the Asia and Pacific Region.
+                    </h5>
+                    <br>
+                    <h1><hr></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rn stastic area -->
+    <div class="rn-statistick-area">
+        <div class="container">
+            <div class="row g-5">
+                <div class="offset-lg-1 col-lg-10 col-md-10">
+                    <div class="single-counter-up text-center">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12" style="text-align: left; font-size:medium">
+                                <h3>XCEL TECH Services include:</h3>
+                                <h6>
+                                    <li>Design, Drafting and Engineering.</li>
+                                    <li>Rapid Prototyping.</li>
+                                    <li>Custom Battery-Electric Devices and Systems.</li>
+                                    <li>Technology Projects Management.</li>
+                                    <li>Autonomous Machines and Devices.</li>
+                                    <li>Robot End Effectors and Devices.</li>
+                                </h6>
+                            </div>
+                            <div class="col-lg-6 col-sm-12" style="text-align: left; font-size:medium">
+                                <h3>XCEL TECH Services include:</h3>
+                                <h6>
+                                    <li>Artificial Intelligence.</li>
+                                    <li>Intelligent Vision.</li>
+                                    <li>Autonomous Machines and Devices.</li>
+                                    <li>Robots and Robotic Systems.</li>
+                                    <li>Battery-Electric Vehicle Conversion.</li>
+                                    <li>Intelligent Logistics</li>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12">
+                                <img src="assets/images/About Us/Full.png" style="max-height: 433px;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 text-lg-start">
+                                <h2>Our current eco-friendly innovative technologies includes:</h2>
+                            </div>
+                            <div class="col-lg-9 col-sm-12 text-lg-start text-sm-start">
+                                <h6>
+                                    <li>Sustainable Battery-Electrical Power Stations.</li>
+                                    <li>Sustainable Battery-Electrical Power Infrastructure.</li>
+                                    <li>Battery-Electrical Heavy and Medium Vehicle Conversions.</li>
+                                    <li>Mobile Autonomous Robotics and Vehicles.</li>
+                                    <li>Artificial Intelligence Smart Machines and Devices.</li>
+                                    <li>Smart Vision Detection, Identification and Tracking Systems.</li>
+                                    <li>Drone Integration with Land and Marine Operations.</li>
+                                    <li>Remote Controlled Fast In-Water Rescue Craft.</li>
+                                    <li>Autonomous Lawn Mower.</li>
+                                </h6>
+                            </div>
+                            <div class="col-lg-3 col-sm-12">
+                                <img src="assets/images/About Us/Right-1.png" style="max-height: 504px;">
+                                <img src="assets/images/About Us/Right-2.png" style="max-height: 139px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Footer Area -->
+    <div id="footer"></div>
+    <!-- End Footer Area -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- Start Top To Bottom Area  -->
+    <div class="rn-progress-parent">
+        <svg class="rn-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- End Top To Bottom Area  -->
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#header').load('header.html')
+        $('#footer').load('footer.html')
+        var scripts = [
+            "assets/js/vendor/jquery.nice-select.min.js",
+            "assets/js/vendor/jquery-ui.js",
+            "assets/js/vendor/modernizer.min.js",
+            "assets/js/vendor/feather.min.js",
+            "assets/js/vendor/slick.min.js",
+            "assets/js/vendor/bootstrap.min.js",
+            "assets/js/vendor/sal.min.js",
+            "assets/js/vendor/particles.js",
+            "assets/js/vendor/jquery.style.swicher.js",
+            "assets/js/vendor/js.cookie.js",
+            "assets/js/vendor/count-down.js",
+            "assets/js/vendor/isotop.js",
+            "assets/js/vendor/imageloaded.js",
+            "assets/js/vendor/backtoTop.js",
+            "assets/js/vendor/odometer.js",
+            "assets/js/vendor/jquery-appear.js",
+            "assets/js/vendor/scrolltrigger.js",
+            "assets/js/vendor/jquery.custom-file-input.js",
+            "assets/js/vendor/savePopup.js",
+            "assets/js/vendor/vanilla.tilt.js",
+            "assets/js/main.js",
+            "assets/js/vendor/web3.min.js",
+            "assets/js/vendor/maralis.js",
+            "assets/js/vendor/nft.js",
+        ]
+        for (let i = 0;i < scripts.length; i++) {
+            $.getScript(scripts[i])
+        }
+        })
+    </script>
+</body>
+
+</html>
